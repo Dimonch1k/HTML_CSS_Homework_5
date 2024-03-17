@@ -1,0 +1,34 @@
+/* For all */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Light', sans-serif;
+}
+
+/* Header */
+header {
+	padding: 20px 40px;
+	color: white;
+	background-color: #008a8c;
+}
+
+/* Main */
+main {
+	background-color: #019f9f;
+	padding: 20px;
+	width: 700px;
+
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+/* Paragraphs */
+p {
+	white-space: wrap;
+}
+
+/* Images */
+img {
+	object-fit: cover;
+	width: 20px;
+}
