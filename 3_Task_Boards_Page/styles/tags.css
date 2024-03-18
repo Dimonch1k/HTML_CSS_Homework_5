@@ -16,7 +16,7 @@ header {
 main {
 	background-color: #019f9f;
 	padding: 20px;
-	width: 700px;
+	width: inherit;
 
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -25,10 +25,16 @@ main {
 /* Paragraphs */
 p {
 	white-space: wrap;
+	font-size: 18px;
 }
 
 /* Images */
-img {
+.additional_info_block img {
 	object-fit: cover;
-	width: 20px;
+
+	height: 30px;
+}
+
+.additional_info img {
+	height: 15px;
 }

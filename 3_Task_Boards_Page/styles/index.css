@@ -13,7 +13,7 @@
 	background-color: #dcdcdc;
 	padding: 20px;
 	border-radius: 5px;
-	min-width: 240px;
+	min-width: 300px;
 
 	display: flex;
 	flex-direction: column;
@@ -44,16 +44,30 @@
 .additional_info_block {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	gap: 15;
 
 	.additional_info {
 		display: flex;
 		flex-direction: row;
-		gap: 10px;
+		align-items: center;
+		gap: 15px;
+
+		.info_checks, .info_attach, .info_comment {
+			display: flex;
+			flex-direction: row;
+			gap: 4px;
+		}
 	}
 }
 
+.additional_info {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+/* Scroll boards */
 div.board2,
 div.board4 {
 	height: 460px;
